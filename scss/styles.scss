@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_h1{
+    text-align: center;
+    color: gray;
+}
+#containerPrincipal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+}
+
+.producto{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.producto_item{
+    text-align: center;
+    h2{
+        color: gray;
+        margin: 10px 0;
+    }
+    h3{
+        color: darkgray;
+        margin: 10px 0;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h4{
+        color: darkgray;
+        margin: 10px 0;
+    }
+}
+
+.producto_item_descuento{
+    text-align: center;
+    h2{
+        color: gray;
+        margin: 10px 0;
+    }
+    h3{
+        color: darkgray;
+        margin: 10px 0;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h4{
+        color: darkgray;
+        margin: 10px 0;
+        text-decoration: line-through;
+    }
+    p{
+        color: gray;
+    }
+}
